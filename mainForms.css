@@ -1,0 +1,97 @@
+form{
+    display: block;
+    border: 1px solid black;
+    padding: 2rem 1rem 1rem 2rem;
+    margin-top:4rem;
+    margin-left: 1rem;
+    width: 40%;
+}
+@media only screen and (max-width: 992px) {
+    form {
+        width: 30%;
+    }
+} 
+@media only screen and (max-width: 600px) {
+    img {
+        height: 150px;
+        width: 180px;
+    }
+} 
+@media only screen and (min-width: 600px) {
+    img {
+        height: 150px;
+        width: 180px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    img {
+        height:290px;
+        width: 190px;
+        position: absolute;
+        left: 250px;
+        top: 90px;
+        z-index: 1;
+    }
+} 
+@media only screen and (min-width: 1200px) {
+    img {
+        height:290px;
+        width: 290px;
+        position: absolute;
+        left: 290px;
+        top: 90px;
+        z-index: 1;
+    }
+}
+input{
+    display: block;
+    margin-bottom: 1rem;
+}
+#male{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-bottom: 0rem;
+}
+#female{
+    display: inline-block;
+    margin-left: 3rem;
+}
+textarea{
+    height: 80px;
+}
+.button{
+    background-color: rgb(65, 154, 196);
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    margin-left: 7rem;
+}
+.invalidInput{
+    border: 1px solid red;
+}
+.confirmationBanner {
+    background-color: rgb(207, 226, 207);;
+    color: rgb(36, 133, 100);
+    font-size: 19px;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    margin-left: 1.5rem;
+    border-radius:5px;
+    width: 42%;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    z-index: 1;
+    padding: 10px;  
+}
+
+@media only screen and (max-width: 992px) {
+    .confirmationBanner {
+        width: 34%;
+        font-size: 15px;
+    }
+} 
+
+
+

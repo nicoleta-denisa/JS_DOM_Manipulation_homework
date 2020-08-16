@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First form with JS</title>
+    <link rel="stylesheet" href="mainForms.css">
+    <script src="mainFirst.js" defer></script>
+</head>
+<body>
+    <form action="" id="form">
+        <img src="img.png" alt="not available">
+        <input type="text" id="firstName" placeholder="First Name" >
+        <input type="text" id="lastName" placeholder="Last Name">
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">M</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">F</label>
+        <br>
+        <textarea name="description" placeholder="Your message here.."></textarea>
+        <br><br>
+        <input type="submit" value="Submit" class="button" id="submitButton">
+    </form>
+    <div id="confirmationBannerId"></div>
+</body>
+</html>

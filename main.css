@@ -1,0 +1,8 @@
+.links {
+    margin: 1rem 0rem 2rem 2rem;
+}
+a{
+    text-decoration: none;
+    color:rgb(152, 192, 251);
+    font-size: 2rem;
+}
